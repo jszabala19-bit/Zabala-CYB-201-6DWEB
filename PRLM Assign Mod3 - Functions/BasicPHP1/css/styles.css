@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:900|Raleway:500,700");
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Raleway", sans-serif;
+  color: #fff8e7;
+  background-color: #8b0000; 
+  background-image: url("../img/xmasdecor.png");
+  background-size: 245px 380px; 
+  background-position: right top; 
+  background-repeat: repeat-y; 
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.8em;
+  padding: 10px 20px 12px 20px;
+  margin: 0;
+  color: #ffd700; 
+  text-shadow: 2px 2px 4px #6b0000;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 20px;
+  margin: 0;
+  color: #00ff7f; 
+  text-shadow: 1px 1px 2px #4b0000;
+}
+
+p {
+  padding: 6px 20px;
+  margin: 0 0 10px 0;
+  line-height: 1.6;
+}
+
+ul {
+  padding-left: 40px;
+  margin: 10px 0 20px 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+a {
+  color: #ffd700;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ff4500; 
+}
+
+nav {
+  padding: 12px 20px;
+  background-color: #006400;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+  margin-bottom: 20px;
+}
+
+nav a {
+  text-transform: uppercase;
+  padding: 0.5em 1em;
+  display: inline-block;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #fff;
+  background-color: rgba(255,255,255,0.2);
+}
+
+.button {
+  background-color: #ffd700;
+  color: #8b0000;
+  border: 2px solid #ffd700;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 12px 25px;
+  margin-top: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}
+
+.button:hover {
+  background-color: #00ff7f; 
+  color: #8b0000;
+  transform: translateY(-2px);
+  box-shadow: 4px 4px 12px rgba(0,0,0,0.4);
+}
+
+table {
+  background-color: rgba(0, 100, 0, 0.85);
+  margin: 10px 20px;
+  padding: 5px;
+  border: 1px solid #ffd700;
+  border-radius: 10px;
+  border-spacing: 0;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
+}
+
+th {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 0.85em;
+  letter-spacing: 0.2em;
+  padding: 8px 12px;
+  background-color: #ffd700;
+  color: #8b0000;
+  border-radius: 8px 8px 0 0;
+}
+
+td {
+  padding: 8px 12px;
+  color: #fff8e7;
+}
+
+footer {
+  border-top: 1px solid #ffd700;
+  padding: 20px 10px;
+  text-align: center;
+  color: #ffd700;
+  background-color: #006400;
+  font-size: 0.9em;
+  flex-shrink: 0;
+}
+
+.countdown {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ffd700;
+  margin: 10px 20px;
+}
